@@ -19,6 +19,8 @@ Route::get('donaciones',['as' => 'donaciones','uses' => 'PagesController@donacio
 
 Route::get('libros',['as' => 'libros','uses' => 'PagesController@libros']);
 
+Route::get('nosotros',['as' => 'nosotros','uses' => 'PagesController@nosotros']);
+
 /** Mensajes */
 Route::resource('messages','MessagesController');
 

@@ -39,6 +39,10 @@
                                 <li class="nav-item">
                                         <a class="nav-link" href={{route('donaciones')}}>Donaciones<span class="sr-only">(current)</span></a>
                                 </li>
+
+                                <li class="nav-item">
+                                    <a class="nav-link" href={{route('nosotros')}}>Nosotros<span class="sr-only">(current)</span></a>
+                            </li>
                                 
                                 @if (Auth::check())
                                     <li class="nav-item dropdown">
@@ -90,6 +94,9 @@
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href={{route('donaciones')}}>Donaciones</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href={{route('nosotros')}}>Nosotros</a>
                 </li>
             </ul>
             <p>Todos los derechos reservados. &COPY;</p>

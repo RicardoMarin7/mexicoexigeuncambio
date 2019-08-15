@@ -31,64 +31,6 @@
                 </p>
     </section>
 
- <!--   <section class="contenedor seccion">
-        <h2 class="fw-300 centrar-texto">¿Qué es lo que esta pasando en México?</h2>
-        <p> 
-        1.- ¿Hastiados del derroche de los funcionarios y nuestros bolsillos sin dinero?
-        </p><p>
-        2.- ¿Hartos de la pobreza,  la violencia, de la injusticia, de la desigualdad  y el desempleo?
-        </p><p>
-        3.- ¿Cuántos desaparecidos,  secuestrados,  purgando condenas injustas, ejecutados, levantados, despojados de sus bienes y  familias, inocentes acribillados,  torturados,  el bienestar está violentado?
-        </p><p> 
-        4.- ¿Estás enterado de que los niños de México, desparecen por diversas causas? Además  los explotan laboralmente dentro del crimen organizado y los usan para cometer delitos y ser burreros.
-        </p><p> 
-        5.- ¿Tienes enojo persistente, no te alcanza tu sueldo?
-        </p><p> 
-        6.- ¿Cuáles son las acciones favorables para ti,  tu familia  y amigos?¿Qué realizan los partidos políticos: PRI, PRD, PAN, PVE, PNA?
-        México petrolero y su pueblo sin dinero 
-        </p><p>
-        7.- ¿Votarás de nuevo por estos partidos políticos que hoy existen? 
-        </p><p>
-        8.- ¿Estás de acuerdo con los sueldos que reciben los altos funcionarios en México?
-        </p><p>
-        9.- ¿Hartos de tener en la administración pública funcionarios arrogantes ineficaces y rateros?
-        </p><p>
-        10.- ¿Tú has  sido testigo, tu experimentaste en carne viva el abuso de autoridad y maltrato de las autoridades del gobierno mexicano, en  cualquiera de sus tres niveles  de gobierno?
-        </p><p>
-        11.- ¿Estás de acuerdo con la Guardia Nacional Militarizada?
-        </p><p>
-        12.- ¿Consideras que  tu persona y  familia viven con calidad de vida, con leyes de paz, prosperidad, con garantías en sus derechos para vivir dignamente, con sueldos justos para el ahorro?
-        </p><p>
-        13.- ¿Se tiene paz y se vive con leyes en éste país?
-        </p><p>
-        14.- ¿Te gusta como mexicano bailar al son del mandato internacional?
-        </p><p>
-        15.- ¿Crees en las palabras declaradas por funcionarios públicos?
-        </p><p>
-        16.- ¿Eres uno de los consentidos del sistema hacendario y te condonan tus pagos por favores emitidos a actuales políticos?
-        </p><p>
-        17.- ¿Estas pagando menos en tus recibos de consumo de luz? o ¿Pagas más?
-        </p><p>
-        18.- ¿Son escuchados tus reclamos hacia los funcionarios públicos? ó¿Eres escuchado en las instituciones de gobierno con seguimiento y respeto a tu tiempo? 
-        </p><p>
-        19.- ¿Conoces las verdaderas cifras del gasto público anual, de los funcionarios, operadores y cuándo disponen para educación, salud y las necesidades básicas de los mexicanos?
-        </p><p>
-        20.- ¿Te gusta cómo funciona el gobierno de México? ¿Cómo te han favorecido estos?
-        </p><p>
-        21.-¿Conoces los negocios turbios de los gobernadores, presidentes municipales y funcionarios públicos?
-        </p><p>
-        22.- ¿.-Conoces algún político pobre, sencillo, que te visite a tú casa y te pregunte si tienes para comer mañana?
-        </p><p>
-        23.- ¿Conoces algún funcionario  de los tres niveles  o  del cuerpo legislativo que haya disminuido su salario  a  favor de alguna familia necesitada por un año, o de manera permanente, mientras está en su cargo en la función pública?
-        </p><p>
-        24.- ¿Tienes actualmente confianza en las reformas legislativas y hacendarias? ¿Sabes en qué te van a beneficiar?
-        </p><p>
-        25.- ¿Podrá el mundo entero no volver a consumir estupefacientes?
-        </p><p>
-        Sabes que desde la presidencia de Enrique Peña Nieto  los ciudadanos representamos su empresa de fuerte ganancia nos cobran el 40% de impuestos por cada litro de gasolina.
-        </p>
-        </div>
-    </section>-->
 
     <main class="seccion contenedor">
         <h2 class="fw-300 centrar-texto">¿Quieres participar para cambiar a México a profundidad y sin violencia?</h2>
@@ -130,37 +72,37 @@
 
         <div class="contenedor-anuncios">
             <div class="anuncio">
-                <img src="img/portada1.jpg" alt="Portada del libro 1">
+                <img src="img/portada1.png" alt="Portada del libro 1">
                 
                 <div class="contenido-anuncio">
-                    <h3>Libro 1</h3>
-                    <p>Descripción libro 1</p>
-                    <p class="precio">$500</p>
-                    <a href="#" class="boton boton-verde d-block">Comprar Libro</a>
+                    <h3>México en Cambio: Verdades en México y otras naciones</h3>
+                    <p>Historia, análisis y crítica de las politicas nacionales, que por siglos se han ejercido en México, observación internacional, propuestas para volver a habilitar, reconstruir México. Es una invitación a la sociedad civil de México y el mundo para actuar proactivamente al cambio necesario de sociedad y de nacion, crear una nueva forma de ser y gobernar.</p>
+                    <p class="precio">Precio inicial $500</p>
+                    <a href="#" class="boton boton-rojo d-block">Comprar Libro</a>
                 </div>
 
             </div>
 
             <div class="anuncio">
-                <img src="img/portada2.jpg" alt="Portada del libro 2">
+                <img src="img/portada2.png" alt="Portada del libro 2">
 
                 <div class="contenido-anuncio">
-                    <h3>Libro 2</h3>
-                    <p>Descripción libro 2</p>
-                    <p class="precio">$500</p>
-                    <a href="#" class="boton boton-verde d-block">Comprar Libro</a>
+                    <h3>Realidades Comprobadas: Una historia y dos relatos</h3>
+                    <p>Este tomo consta de dos narrativas y una historia; la primera es nacional y las otras dos son vivencias internacionales. La idea es la realización de tres producciones cinematográficas para apoyar económicamente al proyecto y de esta manera cambiar los escenarios de México y el mundo.</p>
+                    <p class="precio">Precio inicial $500</p>
+                    <a href="#" class="boton boton-rojo d-block">Comprar Libro</a>
                 </div>
 
             </div>
 
             <div class="anuncio">
-                <img src="img/portada3.jpg" alt="Portada del libro 3">
+                <img src="img/portada3.png" alt="Portada del libro 3">
 
                 <div class="contenido-anuncio">
-                    <h3>Libro 3</h3>
-                    <p>Descripción libro 3</p>
-                    <p class="precio">$500</p>
-                    <a href="#" class="boton boton-verde d-block">Comprar Libro</a>
+                    <h3>21 Versos de la verdad mexicanas, un relato y una canción desesperada</h3>
+                    <p>Contiene 22 versos que se musicalizaran para presentar conciertos, con los cuales se planean beneficios económicos que se distribuirán a diversos grupos vulnerables. Dependiendo el tema de la letra, se hará una venta en forma de subasta para fomentar las fuentes de empleo para los jovenes para que de esa manera se evite la venta de drogas.</p>
+                    <p class="precio">Precio inicial $500</p>
+                    <a href="#" class="boton boton-rojo d-block">Comprar Libro</a>
                 </div><!-- Contenido Anuncio-->
             </div><!-- Anuncio-->
         </div> <!-- contenedor anuncios-->
@@ -204,7 +146,7 @@
             <div class="contenedor contenido-donaciones">
                 <h2>¿Gustas hacer un donativo?</h2>
                 <p>Da click en el botón para realizar un donativo</p>
-                <a href={{ route('donaciones') }} class="boton boton-verde d-block">Donar</a>
+                <a href={{ route('donaciones') }} class="boton boton-rojo d-block">Donar</a>
             </div>
         </section>
 

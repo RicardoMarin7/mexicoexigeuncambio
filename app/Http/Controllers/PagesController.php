@@ -18,4 +18,8 @@ class PagesController extends Controller
     public function libros(){
         return view('libros');
     }
+
+    public function nosotros(){
+        return view('nosotros');
+    }
 }

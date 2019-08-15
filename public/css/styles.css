@@ -10810,7 +10810,7 @@ ul {
 }
 
 .site-header.inicio {
-  background-image: url(/images/Imagen-Portada.png?2815bf6b676e7cb8a7608ec971abf80e);
+  background-image: url(/images/imagen-portada.png?2815bf6b676e7cb8a7608ec971abf80e);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -10859,7 +10859,7 @@ ul {
 .navegacion a:hover {
   transition: 200ms;
   transition-property: all;
-  color: #039164 !important;
+  color: #B5B5B5 !important;
 }
 
 .dropdown-item:hover {
@@ -10956,7 +10956,7 @@ ul {
 }
 
 .precio {
-  color: #039164;
+  color: #75787B;
   font-weight: 700;
 }
 
@@ -11003,7 +11003,7 @@ ul {
 /** Footer **/
 
 .site-footer {
-  background-color: #333333;
+  background-color: #75787B;
   margin: 0;
 }
 

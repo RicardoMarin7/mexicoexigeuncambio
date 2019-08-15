@@ -7,37 +7,37 @@
 
         <div class="contenedor-anuncios">
             <div class="anuncio">
-                <img src="img/portada1.jpg" alt="Portada del libro 1">
+                <img src="img/portada1.png" alt="Portada del libro 1">
                 
                 <div class="contenido-anuncio">
-                    <h3>Libro 1</h3>
-                    <p>Descripción libro 1</p>
-                    <p class="precio">$500</p>
-                    <a href="#" class="boton boton-verde d-block">Comprar Libro</a>
+                    <h3>México en Cambio: Verdades en México y otras naciones</h3>
+                    <p>Historia, análisis y crítica de las politicas nacionales, que por siglos se han ejercido en México, observación internacional, propuestas para volver a habilitar, reconstruir México. Es una invitación a la sociedad civil de México y el mundo para actuar proactivamente al cambio necesario de sociedad y de nacion, crear una nueva forma de ser y gobernar.</p>
+                    <p class="precio">Precio inicial $500</p>
+                    <a href="#" class="boton boton-rojo d-block">Comprar Libro</a>
                 </div>
 
             </div>
 
             <div class="anuncio">
-                <img src="img/portada2.jpg" alt="Portada del libro 2">
+                <img src="img/portada2.png" alt="Portada del libro 2">
 
                 <div class="contenido-anuncio">
-                    <h3>Libro 2</h3>
-                    <p>Descripción libro 2</p>
-                    <p class="precio">$500</p>
-                    <a href="#" class="boton boton-verde d-block">Comprar Libro</a>
+                    <h3>Realidades Comprobadas: Una historia y dos relatos</h3>
+                    <p>Este tomo consta de dos narrativas y una historia; la primera es nacional y las otras dos son vivencias internacionales. La idea es la realización de tres producciones cinematográficas para apoyar económicamente al proyecto y de esta manera cambiar los escenarios de México y el mundo.</p>
+                    <p class="precio">Precio inicial $500</p>
+                    <a href="#" class="boton boton-rojo d-block">Comprar Libro</a>
                 </div>
 
             </div>
 
             <div class="anuncio">
-                <img src="img/portada3.jpg" alt="Portada del libro 3">
+                <img src="img/portada3.png" alt="Portada del libro 3">
 
                 <div class="contenido-anuncio">
-                    <h3>Libro 3</h3>
-                    <p>Descripción libro 3</p>
-                    <p class="precio">$500</p>
-                    <a href="#" class="boton boton-verde d-block">Comprar Libro</a>
+                    <h3>21 Versos de la verdad mexicanas, un relato y una canción desesperada</h3>
+                    <p>Contiene 22 versos que se musicalizaran para presentar conciertos, con los cuales se planean beneficios económicos que se distribuirán a diversos grupos vulnerables. Dependiendo el tema de la letra, se hará una venta en forma de subasta para fomentar las fuentes de empleo para los jovenes para que de esa manera se evite la venta de drogas.</p>
+                    <p class="precio">Precio inicial $500</p>
+                    <a href="#" class="boton boton-rojo d-block">Comprar Libro</a>
                 </div><!-- Contenido Anuncio-->
             </div><!-- Anuncio-->
         </div> <!-- contenedor anuncios-->
