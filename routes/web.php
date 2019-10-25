@@ -43,3 +43,7 @@ Route::post('password/forgot',['as' => 'password.email','uses' => 'Auth\ForgotPa
 Route::get('password/reset/{token}',['as' => 'password.reset','uses' => 'Auth\ResetPasswordController@showResetForm']);
 
 Route::post('password/reset',['as' => 'password.request','uses' => 'Auth\ResetPasswordController@reset']);
+
+
+Route::get('/payments/pay', 'PayPalController@payOrderWithPayPal')->name('payment');
+Route::get('/payments/store', 'PayPalController@saveOrder');

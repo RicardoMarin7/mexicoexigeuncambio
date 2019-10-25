@@ -13,7 +13,7 @@
                     <h3>México en Cambio: Verdades en México y otras naciones</h3>
                     <p>Historia, análisis y crítica de las politicas nacionales, que por siglos se han ejercido en México, observación internacional, propuestas para volver a habilitar, reconstruir México. Es una invitación a la sociedad civil de México y el mundo para actuar proactivamente al cambio necesario de sociedad y de nacion, crear una nueva forma de ser y gobernar.</p>
                     <p class="precio">Precio inicial $500</p>
-                    <a href="#" class="boton boton-rojo d-block">Comprar Libro</a>
+                <a href="{{url('/payments/pay')}}?title=book1&price=500" class="boton boton-rojo d-block">Comprar Libro</a>
                 </div>
 
             </div>
