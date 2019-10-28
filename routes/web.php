@@ -44,6 +44,9 @@ Route::get('password/reset/{token}',['as' => 'password.reset','uses' => 'Auth\Re
 
 Route::post('password/reset',['as' => 'password.request','uses' => 'Auth\ResetPasswordController@reset']);
 
+// Descargas//
+Route::get('download/{filename}', 'DownloadsController@download');
 
+// Paypal // 
 Route::get('/payments/pay', 'PayPalController@payOrderWithPayPal')->name('payment');
 Route::get('/payments/store', 'PayPalController@saveOrder');

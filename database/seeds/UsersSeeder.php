@@ -15,10 +15,10 @@ class UsersSeeder extends Seeder
         DB::table('users')->insert(array(
             'name'=>'admin',
             'surname'=>'admin',
-            'email'=>'admin@admin.com',
+            'email'=>'admin@mexicoexigeuncambio.com',
             'role_id'=>'1',
             'email_verified_at'=>Carbon::now(),
-            'password'=>Hash::make('MexicoMereceUnCambio'),
+            'password'=>Hash::make('Mexicoexigeuncambio'),
             'created_at'=>Carbon::now(),
             'updated_at'=>Carbon::now()
         ));

@@ -25,9 +25,17 @@
                     <h3>Realidades Comprobadas: Una historia y dos relatos</h3>
                     <p>Este tomo consta de dos narrativas y una historia; la primera es nacional y las otras dos son vivencias internacionales. La idea es la realización de tres producciones cinematográficas para apoyar económicamente al proyecto y de esta manera cambiar los escenarios de México y el mundo.</p>
                     <p class="precio">Precio inicial $500</p>
-                    <a href="#" class="boton boton-rojo d-block">Comprar Libro</a>
+                    @if (Auth::check())
+                        @if (auth()->user()->hasRoles(['admin']))
+                            <a href="download/Tomo2" class="boton boton-rojo d-block">Descargar</a>
+                        @else
+                            
+                            <a href="{{url('/payments/pay')}}?title=book1&price=500" class="boton boton-rojo d-block">Comprar Libro</a>
+                        @endif
+                    @else
+                        <a href="{{ route('login')}}" class="boton boton-rojo d-block">Comprar Libro</a>
+                    @endif
                 </div>
-
             </div>
 
             <div class="anuncio">
@@ -37,9 +45,16 @@
                     <h3>21 Versos de la verdad mexicanas, un relato y una canción desesperada</h3>
                     <p>Contiene 22 versos que se musicalizaran para presentar conciertos, con los cuales se planean beneficios económicos que se distribuirán a diversos grupos vulnerables. Dependiendo el tema de la letra, se hará una venta en forma de subasta para fomentar las fuentes de empleo para los jovenes para que de esa manera se evite la venta de drogas.</p>
                     <p class="precio">Precio inicial $500</p>
-                    <a href="#" class="boton boton-rojo d-block">Comprar Libro</a>
-                </div><!-- Contenido Anuncio-->
-            </div><!-- Anuncio-->
+                    @if (Auth::check())
+                        @if (auth()->user()->hasRoles(['admin']))
+                            <a href="download/Tomo3" class="boton boton-rojo d-block">Descargar</a>
+                        @else
+                           
+                        @endif
+                    @else
+                        <a href="{{ route('login')}}" class="boton boton-rojo d-block">Comprar Libro</a>
+                    @endif
+                </div>
         </div> <!-- contenedor anuncios-->
     </main>
     

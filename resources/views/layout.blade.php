@@ -50,8 +50,6 @@
                                         <div class="dropdown-menu {{request()->is('/') ? 'bg-none':'bg-red'}}" aria-labelledby="dropdownId">
                                             @if (auth()->user()->hasRoles(['admin']))
                                                 <a class="dropdown-item" href={{ route('messages.index') }}>Mensajes</a>                                                     
-                                            @else
-                                                <a class="dropdown-item" href="#">Mis Compras</a>
                                             @endif                             
                                             <a class="dropdown-item" href={{ route('logout')}}>Cerrar Sesión</a>
                                         </div>
