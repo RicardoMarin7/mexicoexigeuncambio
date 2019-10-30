@@ -13,7 +13,15 @@
                     <h3>México en Cambio: Verdades en México y otras naciones</h3>
                     <p>Historia, análisis y crítica de las politicas nacionales, que por siglos se han ejercido en México, observación internacional, propuestas para volver a habilitar, reconstruir México. Es una invitación a la sociedad civil de México y el mundo para actuar proactivamente al cambio necesario de sociedad y de nacion, crear una nueva forma de ser y gobernar.</p>
                     <p class="precio">Precio inicial $500</p>
-                <a href="{{url('/payments/pay')}}?title=book1&price=500" class="boton boton-rojo d-block">Comprar Libro</a>
+                    @if (Auth::check())
+                        @if (auth()->user()->hasRoles(['admin']))
+                            <a href="download/Tomo2" class="boton boton-rojo d-block">Descargar</a>
+                        @else    
+                            <a href="{{url('/payments/pay')}}?title=Mexico en cambio Verdades en Mexico y otras naciones&price=500" class="boton boton-rojo d-block">Comprar Libro</a>
+                        @endif
+                    @else
+                        <a href="{{ route('login')}}" class="boton boton-rojo d-block">Comprar Libro</a>
+                    @endif
                 </div>
 
             </div>
@@ -28,9 +36,8 @@
                     @if (Auth::check())
                         @if (auth()->user()->hasRoles(['admin']))
                             <a href="download/Tomo2" class="boton boton-rojo d-block">Descargar</a>
-                        @else
-                            
-                            <a href="{{url('/payments/pay')}}?title=book1&price=500" class="boton boton-rojo d-block">Comprar Libro</a>
+                        @else    
+                            <a href="{{url('/payments/pay')}}?title=Realidades Comprobadas Una historia y dos relatos&price=500" class="boton boton-rojo d-block">Comprar Libro</a>
                         @endif
                     @else
                         <a href="{{ route('login')}}" class="boton boton-rojo d-block">Comprar Libro</a>
@@ -49,7 +56,7 @@
                         @if (auth()->user()->hasRoles(['admin']))
                             <a href="download/Tomo3" class="boton boton-rojo d-block">Descargar</a>
                         @else
-                           
+                        <a href="{{url('/payments/pay')}}?title=21 Versos de la verdad mexicanas, un relato y una canción desesperada&price=500" class="boton boton-rojo d-block">Comprar Libro</a>
                         @endif
                     @else
                         <a href="{{ route('login')}}" class="boton boton-rojo d-block">Comprar Libro</a>

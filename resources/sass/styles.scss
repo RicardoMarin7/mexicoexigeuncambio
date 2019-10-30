@@ -7,6 +7,7 @@ $otrogris:#4f4f4f;
 $grismasclaro:#B5B5B5;
 $grissuperclaro:#F5F5F5;
 $azul: #0033A0;
+$rojo: #E10600;
 
 @import "node_modules/bootstrap/scss/bootstrap.scss";
 
@@ -397,7 +398,7 @@ textarea{
 }
 
 .error{
-    color:$rojobandera;
+    color:$rojo!important;
 }
 
 /* Pagina Inicio de Sesión */

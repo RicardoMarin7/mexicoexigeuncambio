@@ -11071,7 +11071,7 @@ textarea {
 }
 
 .error {
-  color: #632524;
+  color: #E10600 !important;
 }
 
 /* Pagina Inicio de Sesión */
