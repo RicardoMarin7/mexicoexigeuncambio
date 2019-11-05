@@ -4,7 +4,7 @@ namespace App\Http\Middleware;
 
 use Closure;
 
-class CheckPurchases
+class CheckDonations
 {
     /**
      * Handle an incoming request.
@@ -13,15 +13,13 @@ class CheckPurchases
      * @param  \Closure  $next
      * @return mixed
      */
-    public function handle($request, Closure $next, $libro)
+    public function handle($request, Closure $next)
     {
-        $purchases = array_slice(func_get_args(),2);
-
-        if(auth()->user()->hasPurchased($purchases)){
+        $donations = array_slice(func_get_args(),6);
+        if(auth()->user()->hasDonations($donation)){
             return $next($request);
         }
-
         return redirect('/');
     }
-}
+
 }

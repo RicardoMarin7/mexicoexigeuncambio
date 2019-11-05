@@ -16,8 +16,12 @@
                     @if (Auth::check())
                         @if (auth()->user()->hasRoles(['admin']))
                             <a href="download/Tomo2" class="boton boton-rojo d-block">Descargar</a>
-                        @else    
-                            <a href="{{url('/payments/pay')}}?title=Mexico en cambio Verdades en Mexico y otras naciones&price=500" class="boton boton-rojo d-block">Comprar Libro</a>
+                        @else
+                            @if (auth()->user()->hasDonations(['Mexico en cambio Verdades en Mexico y otras naciones']))
+                                <a href="download/Tomo1" class="boton boton-rojo d-block">Descargar</a>  
+                            @else
+                                <a href="{{url('/payments/pay')}}?title=Mexico en cambio Verdades en Mexico y otras naciones&price=500" class="boton boton-rojo d-block">Comprar Libro</a>
+                            @endif                  
                         @endif
                     @else
                         <a href="{{ route('login')}}" class="boton boton-rojo d-block">Comprar Libro</a>
@@ -36,8 +40,12 @@
                     @if (Auth::check())
                         @if (auth()->user()->hasRoles(['admin']))
                             <a href="download/Tomo2" class="boton boton-rojo d-block">Descargar</a>
-                        @else    
-                            <a href="{{url('/payments/pay')}}?title=Realidades Comprobadas Una historia y dos relatos&price=500" class="boton boton-rojo d-block">Comprar Libro</a>
+                        @else
+                            @if(auth()->user()->hasDonations(['Realidades Comprobadas Una historia y dos relatos']))
+                                <a href="download/Tomo2" class="boton boton-rojo d-block">Descargar</a>
+                            @else
+                                <a href="{{url('/payments/pay')}}?title=Realidades Comprobadas Una historia y dos relatos&price=500" class="boton boton-rojo d-block">Comprar Libro</a>
+                            @endif
                         @endif
                     @else
                         <a href="{{ route('login')}}" class="boton boton-rojo d-block">Comprar Libro</a>
@@ -56,7 +64,11 @@
                         @if (auth()->user()->hasRoles(['admin']))
                             <a href="download/Tomo3" class="boton boton-rojo d-block">Descargar</a>
                         @else
-                        <a href="{{url('/payments/pay')}}?title=21 Versos de la verdad mexicanas, un relato y una canción desesperada&price=500" class="boton boton-rojo d-block">Comprar Libro</a>
+                            @if(auth()->user()->hasDonations(['21 Versos de la verdad mexicanas, un relato y una canción desesperada']))
+                                <a href="download/Tomo3" class="boton boton-rojo d-block">Descargar</a>
+                            @else
+                                <a href="{{url('/payments/pay')}}?title=21 Versos de la verdad mexicanas, un relato y una canción desesperada&price=500" class="boton boton-rojo d-block">Comprar Libro</a>
+                            @endif
                         @endif
                     @else
                         <a href="{{ route('login')}}" class="boton boton-rojo d-block">Comprar Libro</a>

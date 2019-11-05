@@ -52,6 +52,19 @@ class User extends Authenticatable
         return false;
     }
 
+    public function donations(){
+        return $this->hasMany(Donation::class,'id_donador','id');
+    }
+
+    public function hasDonations(array $donations){
+        foreach ($this->donations as $donation) {
+            if($donation->nombre_libro === $donations[0]){
+                return true;
+            }
+        }
+        return false;
+    }
+
     public function sendPasswordResetNotification($token)
     {
         $this->notify(new MyResetPassword($token));
